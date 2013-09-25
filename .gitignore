@@ -1,0 +1,15 @@
+*~
+*.beam
+/ebin/*.app
+/priv/*.map
+/priv/mibs/
+include/dictionary.hrl
+include/dictionary_*.hrl
+include/ERADIUS-MIB.hrl
+tetrapak/.*.cache
+*.log
+/dist/
+/test-log/
+
+/doc/*
+!/doc/overview.edoc
