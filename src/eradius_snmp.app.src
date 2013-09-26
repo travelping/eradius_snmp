@@ -1,0 +1,4 @@
+{application, eradius_snmp, [
+   {description, "Erlang RADIUS server SNMP Support"},
+   {applications, [kernel, stdlib, crypto, mnesia, snmp, eradius]}
+]}.
