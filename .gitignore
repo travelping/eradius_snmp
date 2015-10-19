@@ -13,3 +13,6 @@ tetrapak/.*.cache
 
 /doc/*
 !/doc/overview.edoc
+.rebar
+deps
+logs
