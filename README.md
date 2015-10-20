@@ -7,10 +7,10 @@ option for eradius
 Running
 -------
 
-Add sample/snmp/agent.conf to your erlang config. Copy files from
+Add priv/sample/snmp/agent.conf to your erlang config. Copy files from
 sample/snmp to an appropriate place and adjust path names in all
 configuraton files.
-Change SNMP config values in sample/snmp files to match you system.
+Change SNMP config values in priv/sample/snmp files to match you system.
 
 Run the erlang_snmp application.
 

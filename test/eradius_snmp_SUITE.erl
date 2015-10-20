@@ -13,7 +13,7 @@ all() ->
 
 init_per_suite(Config) ->
     DbDir = string:strip(os:cmd("mktemp -d -t eradius_dnmp_tests.XXX"), right, $\n),
-    application:set_env(snmp, agent, [{config, [{dir, "../../sample/snmp/agent/conf/"}]},
+    application:set_env(snmp, agent, [{config, [{dir, "../../priv/sample/snmp/agent/conf/"}]},
                                       {db_dir, DbDir},
                                       {mibs, ["../../priv/mibs/ERADIUS-MIB"]}]),
     application:ensure_all_started(eradius_snmp),
